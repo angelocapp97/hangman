@@ -1,7 +1,7 @@
 {
-  "name": "boilerplate",
+  "name": "hangman",
   "version": "1.0.0",
-  "description": "",
+  "description": "Hangman game built with JavaScript ES7",
   "main": "input.js",
   "scripts": {
     "dev-server": "webpack-dev-server --mode development",
