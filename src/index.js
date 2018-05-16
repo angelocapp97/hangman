@@ -1,5 +1,6 @@
 import { Hangman } from './hangman'
 import getPuzzle from './requests'
+import 'isomorphic-fetch'
 
 const puzzleEl = document.querySelector('#puzzle')
 const guessesEl = document.querySelector('#guesses')
