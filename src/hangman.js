@@ -44,7 +44,7 @@ export class Hangman {
         const isBadGuess = !this.word.includes(guess)
 
         if (isUnique) {
-            this.guessedLetters.push(guess)
+            this.guessedLetters = [...this.guessedLetters, guess]
         }
 
         if (isUnique && isBadGuess) {
